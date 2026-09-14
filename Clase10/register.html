@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Registrate</title>
+</head>
+<body>
+    <header>
+        <div class="loginRegister">
+            <a href="login.html"><p class="preInicio">Login</p></a>
+            <a href="register.html"><p class="preInicio">Register</p></a>
+        </div>
+        <div class="logo1">
+        <img src="img/logo (2).jpg">
+        </div>
+        <ul>
+            <li class="menu"><a href="index.html">HOME</a></li>
+            <li class="menu"><a href="#">QUIENES</a></li>
+            <li class="menu"><a href="#">SERVICIOS</a></li>
+            <li class="menu"><a href="#">PORTFOLIO</a></li>
+            <li class="menu"><a href="#">SUCURSALES</a></li>
+            <li class="menu"><a href="#">CONTACTO</a></li>
+        </ul></header>
+        <h2>REGISTRATE</h2>
+        <section class="max35o">
+            <article>
+                <form action="./index.html" method="get">
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input type="text" name="name" value="" required placeholder="Ingresa tu nombre">
+                    <br>
+                    <label for="email">Mail:</label>
+                    <br>
+                    <input type="email" name="mail" value="" required placeholder="Ingresa tu email">
+                    <br>
+                    <label for="password">Contrasena:</label>
+                    <br>
+                    <input type="password" name="pass" value="" required placeholder="password">
+                    <br>
+                    <h3>Pais de nacimiento</h3>
+                    <select name="pais">
+                        <option value="ar">Argentina</option>
+                        <option value="bf">Burkina Faso</option>
+                        <option value="pa">Paraguay</option>
+                        <option value="tv">Tuvalu</option>
+                        <option value="bo">Bosnia y Herzegovina</option>
+                    </select>
+                    <br>
+                    <br>
+                    <h3>GENERO</h3>
+                    <label><input type="radio">Masculino</label>
+                    <label><input type="radio">Femenino</label>
+                    <label><input type="radio">Otro</label>
+                    <br>
+                    <h3>HOBBIES</h3>
+                    <div class="checkbox1">
+                    <label><input type="checkbox" name="hobbies">Futbol</label>
+                    <label><input type="checkbox" name="hobbies">Guitarra</label>
+                    <label><input type="checkbox" name="hobbies">Remo</label>
+                    <label><input type="checkbox" name="hobbies">Surf</label>
+                    <label><input type="checkbox" name="hobbies">PlayStation</label>
+                    </div>
+                    <br>
+                    <br>
+                    <h3>Dejanos tus comentarios</h3>
+                    <textarea name="mensaje"></textarea>
+                    <br>
+                    <br>
+                    <label><input type="checkbox" name="hobbies">Acepto terminos y condiciones</label>
+                    <br>
+                    <br>
+                    <h4>Boton enviar con etiqueta 'input'</h4>
+                    <input type="submit" value="registrarme"></input>
+                    <input type="submit" value="cancelar"></input>
+                    <br>
+                    <br>
+                     <h4>Boton enviar con etiquetas 'button'</h4>
+                    <button class="enviar" type="submit">Registrarme</button>
+                    <button class="enviar" type="submit">Cancelar</button>
+                </form>
+            </article>
+        </section>
+        <footer>
+        <ul>
+            <li class="menuFin"><a href="index.html">HOME</a></li>|
+            <li class="menuFin"><a href="#">QUIENES</a></li>|
+            <li class="menuFin"><a href="#">SERVICIOS</a></li>|
+            <li class="menuFin"><a href="#">PORTFOLIO</a></li>|
+            <li class="menuFin"><a href="#">SUCURSALES</a></li>|
+            <li class="menuFin"><a href="#">CONTACTO</a></li>|
+        </ul>
+    </footer>
+</body>
+</html>
