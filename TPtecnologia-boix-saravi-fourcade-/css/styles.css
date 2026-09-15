@@ -1,6 +1,67 @@
-.playfair-display-font {
+*{
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: 600;
   font-style: normal;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.header1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  background-color: #bed9ea;
+}
+.buscador{
+  align-self: baseline;
+  margin-top: 60px;
+}
+.busqueda{
+  width: 300px;
+}
+.sesion{
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.sesion a{
+  display: inline-block;
+  padding: 10px 18px;
+  font-size: 24px;
+  background-color: #66a7d0;
+  border-radius: 15px;
+  margin-top: -100px;
+}
+a{
+  text-decoration: none;
+  color: #f1e4c9;
+  font-weight: bolder;
+}
+.headerizq{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.headerizq img{
+  width: 300px;
+  height: auto;
+}
+.headerinf{
+  display: flex;
+  gap: 20px;
+  background-color: #bed9ea;
+  width: 150px;
+}
+ul{
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+li{
+  margin-bottom: 20px;
 }
