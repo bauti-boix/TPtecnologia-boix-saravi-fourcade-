@@ -10,64 +10,66 @@
     <title>PIER</title>
 </head>
 <body>
-   <header>
-        <div class="header1">
+   <header class="header1">
+        <div class="headerizq">
             <a href="./index.html">
                 <img src="./img/pier-nombre.png">
             </a>
-            <form action="./search-results.html">
-                <input type="text" id="search-results" name="busqueda" placeholder="¿Que estas buscando?" required>
-                <button type="submit">Buscar</button>
-            </form>
-            <nav>
-            <a href="login.html">Inicia Sesión</a>
-            <a href="register.html">Registrate</a>
+             <div class="buscador">
+             <form action="./search-results.html">
+                <input class="busqueda" type="text" id="search-results" name="busqueda" placeholder="¿Que estas buscando?" required>
+                <button type="submit">BUSCAR</button>
+             </form>
+             </div>
+             </div>
+            <nav class="sesion">
+             <a href="login.html">Inicia Sesión</a>
+             <a href="register.html">REGISTRATE</a>
             </nav>
-        </div>
-        <div>
-            <nav>
-            <a href="product.html">EVENTOS</a>
-            <a href="product.html">DJ'S</a>
-            <a href="product.html">TECNICA</a>
-            <a href="product.html">PRODUCCION</a>
-            </nav>
-        </div>
     </header>
     <main>
-        <section>
-            <article class="login1">
+        <section class="navprincipal">
+            <nav>
+                <ul>
+            <li><a href="product.html">EVENTOS</a></li>
+            <li><a href="product.html">DJ'S</a></li>
+            <li><a href="product.html">TECNICA</a></li>
+            <li><a href="product.html">PRODUCCION</a></li>
+            </ul>
+            </nav>
+        </section>
+        <section class="texto">
                 <form action="./index.html">
                     <label for="email">Mail:</label>
+                    <br>
                     <input type="email" id="mail" name="mail" placeholder="Email" required>
                     <br>
                     <label for="password">Contraseña:</label>
+                    <br>
                     <input type="password" id="password" name="pass" placeholder="Contraseña" required>
-
-                    <button type="submit">Ingresar</button>
+<br>
+<br>
+                    <button class="ingresoLogin" type="submit">Ingresar</button>
                     <p>¿No tenes cuenta?<a href="register.html"> Registrate aqui.</a></p>
             </form>
-            </article>
         </section>
     </main>
-<footer>
-        <div class="footer1">
+     <footer class="header1">
+        <div class="headerizq">
             <a href="./index.html">
                 <img src="./img/pier-nombre.png">
             </a>
-            <form action="./search-results.html">
-                <input type="text" id="search-results" name="busqueda" placeholder="¿Que estas buscando?" required>
-                <button type="submit">Buscar</button>
-            </form>
-            <nav>
-            <a href="login.html">Inicia Sesión</a>
-            <a href="register.html">Registrate</a>
-            </nav>
-        </div>
-        <div>
-            <h3>Contactanos:</h3>
-            <a href="mailto:bboixmansilla@udesa.edu.ar">Bautista Boix Mansilla</a>
-            <a href="mailto:bboixmansilla@udesa.edu.ar">Simón Fourcade</a>
-            <a href="mailto:bboixmansilla@udesa.edu.ar">Agustín Saravi</a>
+             <div class="buscador">
+             <form action="./search-results.html">
+                <input class="busqueda" type="text" id="search-results" name="busqueda" placeholder="¿Que estas buscando?" required>
+                <button type="submit">BUSCAR</button>
+             </form>
+             </div>
+             </div>
+        <div class="contacto">
+            <a href="mailto:bboixmansilla@udesa.edu.ar">Bautista BOIX MANSILLA</a>
+            <a href="mailto:bboixmansilla@udesa.edu.ar">Simón FOURCADE</a>
+            <a href="mailto:bboixmansilla@udesa.edu.ar">Agustín SARAVI</a>
         </div>
     </footer>
 </body>
