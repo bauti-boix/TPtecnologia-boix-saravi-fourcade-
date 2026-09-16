@@ -83,12 +83,12 @@ a{
   box-sizing: border-box;
 }
 .navprincipal ul{
-  list-style: none;
+  list-style:circle;
+  color: #f1e4c9;
   justify-content: space-between;
 }
 .navprincipal li{
-  margin-bottom: 74px;
-  font-size: x-large;
+  font-size: large;
 }
 .footer1{
   box-sizing: border-box;
