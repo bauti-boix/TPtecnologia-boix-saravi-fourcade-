@@ -22,11 +22,16 @@ header{
   height: 230px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 20px;
   background-color: #0a5787;
+}
+.header1 img{
+  width: 200px;
+  margin-left:100%;
+
 }
 .buscador{
   align-self: center;
@@ -68,16 +73,8 @@ a{
   color: #f1e4c9;
   font-weight: bolder;
 }
-.headerizq{
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.headerizq img{
-  width: 300px;
-  height: auto;
-}
+
+
 .navprincipal{
   display: flex;
   gap: 20px;
