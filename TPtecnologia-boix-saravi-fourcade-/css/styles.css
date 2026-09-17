@@ -32,8 +32,12 @@ header{
 .buscador input{
   width: 300px;
   height: 30px;
-  border: 1px solid #000c1b;
+  border: 1px solid #0a5787;
   border-radius: 10px;
+  background-color: #0d659c;
+}
+.buscador input::placeholder{
+  color: #f1e4c9;
 }
 .buscador button{
   height: 40px;
@@ -59,8 +63,6 @@ header{
   font-size: 24px;
   background-color: #0d659c;
   border-radius: 15px;
-}
-a{
   text-decoration: none;
   color: #f1e4c9;
   font-weight: bolder;
@@ -85,7 +87,13 @@ main{
   justify-content: space-between;
 }
 .navprincipal li{
+  margin-top: 4px;
+}
+.navprincipal a{
   font-size: large;
+  text-decoration: none;
+  color: #f1e4c9;
+  font-weight: bolder;
 }
 .texto{
   width: 85%;
@@ -97,6 +105,35 @@ main{
 }
 .texto a{
   color: #000c1b;
+}
+.toptext{
+  width: 85%;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+}
+.preview{
+  display: flex;
+  gap: 100px;
+}
+.preview img{
+  justify-content: space-between;
+  width: 200px;
+  height: 220px;
+}
+.productoindex {
+  display: flex;
+}
+.productoindex a{
+  color: #000c1b;
+  text-decoration: none;
+}
+.productoindex h4{
+  text-decoration: line-through;
+  color: gray;
+}
+.productoindex h2{
+  color: red;
 }
 .ingresoLogin{
   margin-left: 180px;
@@ -131,4 +168,8 @@ main{
   flex-direction: column;
   gap: 10px;
   margin-top: 55px;
+}
+.contacto a{
+  color:#f1e4c9;
+  text-decoration: none;
 }
