@@ -120,7 +120,7 @@ main{
 }
 .preview img{
   justify-content: space-between;
-  width: 200px;
+  width: auto;
   height: 220px;
 }
 .productoindex {
@@ -134,7 +134,9 @@ display :flex;
 .precio{
   display: flex;
   flex-direction: column;
-  align-items: end;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 70%;
 }
 .productoindex h1 {
   text-align: center;
@@ -189,11 +191,21 @@ display :flex;
   text-decoration: none;
 }
 button.comprar{
-  background-color: #0a578700;
-  color: #000000;
-  border: solid #000000 2px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 18px;
+  font-size: 24px;
+  background-color: #0d659c;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #f1e4c9;
   font-weight: bolder;
-  padding: 5px 10px;
-  border-radius: 5px;
-  margin-bottom: 15px;
+}
+button.lighter{
+  background-color: #f1e4c9;
+  color: #000c1b;
+}
+button.comprar:hover{
+  background-color: #c5e3f7;
+  color: #020202;
 }
