@@ -182,3 +182,12 @@ main{
   color:#f1e4c9;
   text-decoration: none;
 }
+button.comprar{
+  background-color: #0a578700;
+  color: #000000;
+  border: solid #000000 2px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
