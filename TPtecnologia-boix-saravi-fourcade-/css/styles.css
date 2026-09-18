@@ -97,7 +97,7 @@ main{
   font-weight: bolder;
 }
 .texto{
-  width: 85%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +108,7 @@ main{
   color: #000c1b;
 }
 .toptext{
-  width: 85%;
+  width: 80%;
   box-sizing: border-box;
   background-color: white;
   text-align: center;
@@ -116,14 +116,15 @@ main{
 }
 .preview{
   display: flex;
-  gap: 100px;
+  gap: 24px;
 }
 .preview img{
-  justify-content: space-between;
   width: auto;
-  height: 220px;
+  height: 160px;
 }
 .productoindex {
+  width: 80%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
