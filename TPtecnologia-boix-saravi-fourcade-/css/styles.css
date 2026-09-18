@@ -125,10 +125,16 @@ main{
 }
 .productoindex {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  margin-left: 8%;
+}
+.description{
+display :flex;
+}
+.precio{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 .productoindex h1 {
   text-align: center;
