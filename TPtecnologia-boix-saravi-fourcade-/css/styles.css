@@ -52,12 +52,18 @@ form label {
     font-weight: bold;
     font-size: 16px;
 }
+form p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
 .sesion{
   gap: 12px;
   display: flex;
   align-items: center;
   align-self: center;
 }
+
 .carta{ 
     background-color: #f8f8f8;
     padding: 35px;
@@ -115,7 +121,8 @@ main{
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  background-color: white;
+  background: linear-gradient(to bottom, #ffffff,#9fb7db);
+  border-bottom: 1px solid #0000002b;
 }
 .texto a{
   color: #000c1b;
