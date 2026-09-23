@@ -300,4 +300,11 @@ button.comprar:hover{
     height: 32px;
     padding: 0 10px;
   }
+  .navprincipal ul{
+    justify-content: center;
+    text-align: center;
+  }
+  .navprincipal a{
+    font-size: 14px;
+  }
   }
