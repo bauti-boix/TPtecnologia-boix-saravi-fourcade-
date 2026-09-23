@@ -304,14 +304,19 @@ button.comprar:hover{
   }
   }
 @media (max-width: 420px){
+  .productoindex{
+    flex-direction: column;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .productoindex > div:first-of-type{
+    order: -1;
+    text-align: center;
+  }
   .productoindex img,
   .toptext img{
     max-width: 100%;
     height: auto;
-  }
-  .productoindex{
-    padding: 0 10px;
-    box-sizing: border-box;
   }
   .descripcion{
     width: 100%;
