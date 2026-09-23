@@ -282,4 +282,13 @@ button.comprar:hover{
   .header1 img{
     width: 100px;
   }
+  .buscador input{
+    width: 140px;
+    height: 26px;
+  }
+    .buscador button{
+    height: 34px;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
   }
