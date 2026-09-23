@@ -291,10 +291,11 @@ button.comprar:hover{
     .preview{
     flex-wrap: wrap;
   }
-    .preview .productoindex{
+  .preview .productoindex{
     width: 45%;
     box-sizing: border-box;
   }
+}
   .footer1{
     flex-direction: column;
     height: auto;
@@ -314,12 +315,10 @@ button.comprar:hover{
     padding: 0 10px;
     box-sizing: border-box;
   }
-  .productoindex > div:first-of-type{
-    order: -1;
-    text-align: center;
+    .preview .productoindex{
+    width: 100%;
   }
-  .productoindex img,
-  .toptext img{
+  .productoindex img, .toptext img{
     max-width: 100%;
     height: auto;
   }
