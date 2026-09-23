@@ -249,4 +249,14 @@ button.comprar:hover{
     width: 100%;
     opacity: 0.9;
   }
+    .navprincipal ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    list-style: none;
+    padding: 15px;
+  }
+  .texto, .toptext, .productoindex{
+    width: 100%;
+  }
   )
