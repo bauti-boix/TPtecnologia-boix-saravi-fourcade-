@@ -236,4 +236,9 @@ button.comprar:hover{
     flex-wrap: wrap;
     gap: 12px;
   }
+   .header1 img{
+    width: 140px;
+  }
+  .buscador input{
+    width: 200px;
   )
