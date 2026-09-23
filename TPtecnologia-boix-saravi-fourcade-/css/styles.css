@@ -327,5 +327,9 @@ button.comprar:hover{
   .contacto a{
     font-size: 12px;
   }
-  
+  button.comprar{
+    font-size: 16px;
+    padding: 0 12px;
+    height: 32px;
+  }
   }
