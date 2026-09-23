@@ -245,4 +245,8 @@ button.comprar:hover{
   main{
     flex-direction: column;
   }
+  .navprincipal{
+    width: 100%;
+    opacity: 0.9;
+  }
   )
