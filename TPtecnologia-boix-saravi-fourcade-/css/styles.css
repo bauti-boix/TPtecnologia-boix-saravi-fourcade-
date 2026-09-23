@@ -275,3 +275,11 @@ button.comprar:hover{
     margin-left: 0;
   }
   }
+  @media (max-width: 420px){
+  .header1{
+    padding: 12px;
+  }
+  .header1 img{
+    width: 100px;
+  }
+  }
