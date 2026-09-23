@@ -338,6 +338,9 @@ button.comprar:hover{
   .toptext{
     padding: 10px 15px;
   }
+  .description{
+    width: 80vw;
+  }
   .productoindex{
     flex-direction: column;
   }
