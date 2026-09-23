@@ -230,3 +230,10 @@ button.comprar:hover{
   background-color: #c5e3f7;
   color: #020202;
 }
+@media (max-width: 1200px){
+  .header1{
+    height: auto;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  )
