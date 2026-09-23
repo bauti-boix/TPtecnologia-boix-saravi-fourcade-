@@ -173,6 +173,22 @@ display :flex;
 .productoindex h2{
   color: red;
 }
+.productoindex h3{
+  color: gray;
+  font-weight:900;
+}
+.comentarios{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 5px;
+}
+.comentarios section{
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  width: 180px;
+}
 .ingresoLogin{
   margin-left: 180px;
   background-color: #bed9ea;
