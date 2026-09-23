@@ -135,12 +135,17 @@ main{
   padding: 10px 30px;
 }
 .preview{
+  flex-wrap: wrap;
   display: flex;
   gap: 24px;
 }
 .preview img{
   width: auto;
   height: 160px;
+}
+.preview .productoindex{
+  width: 30%;
+  box-sizing: border-box;
 }
 .productoindex {
   width: 80%;
@@ -295,7 +300,6 @@ button.comprar:hover{
     width: 45%;
     box-sizing: border-box;
   }
-}
   .footer1{
     flex-direction: column;
     height: auto;
@@ -308,7 +312,7 @@ button.comprar:hover{
   .ingresoLogin{
     margin-left: 0;
   }
-  }
+}
 @media (max-width: 420px){
   .productoindex{
     flex-direction: column;
