@@ -259,4 +259,19 @@ button.comprar:hover{
   .texto, .toptext, .productoindex{
     width: 100%;
   }
-  )
+    .preview{
+    flex-wrap: wrap;
+  }
+  .footer1{
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+  .contacto{
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  .ingresoLogin{
+    margin-left: 0;
+  }
+  }
