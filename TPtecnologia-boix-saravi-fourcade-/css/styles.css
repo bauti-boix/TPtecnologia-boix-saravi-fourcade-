@@ -287,6 +287,7 @@ button.comprar:hover{
   .texto, .toptext, .productoindex{
     width: 100%;
   }
+
     .preview{
     flex-wrap: wrap;
   }
