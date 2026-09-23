@@ -241,4 +241,8 @@ button.comprar:hover{
   }
   .buscador input{
     width: 200px;
+  }
+  main{
+    flex-direction: column;
+  }
   )
