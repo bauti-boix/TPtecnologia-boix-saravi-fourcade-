@@ -286,9 +286,18 @@ button.comprar:hover{
     width: 140px;
     height: 26px;
   }
-    .buscador button{
+  .buscador button{
     height: 34px;
     padding: 4px 8px;
-    font-size: 12px;
+    font-size: 14px;
+  }
+  .sesion{
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .sesion a{
+    font-size: 16px;
+    height: 32px;
+    padding: 0 10px;
   }
   }
