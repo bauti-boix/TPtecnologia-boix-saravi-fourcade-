@@ -307,4 +307,25 @@ button.comprar:hover{
   .navprincipal a{
     font-size: 14px;
   }
+  .toptext{
+    padding: 10px 15px;
+  }
+  .productoindex{
+    flex-direction: column;
+  }
+  .preview img{
+    height: 100px;
+  }
+  .carta{
+    width: 90%;
+    padding: 20px;
+    margin: 40px auto;
+  }
+  .footerizq img{
+    width: 180px;
+  }
+  .contacto a{
+    font-size: 12px;
+  }
+  
   }
