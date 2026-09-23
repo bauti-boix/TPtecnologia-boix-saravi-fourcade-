@@ -290,6 +290,10 @@ button.comprar:hover{
     .preview{
     flex-wrap: wrap;
   }
+    .preview .productoindex{
+    width: 45%;
+    box-sizing: border-box;
+  }
   .footer1{
     flex-direction: column;
     height: auto;
