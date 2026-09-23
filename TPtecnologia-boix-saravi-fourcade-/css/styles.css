@@ -303,64 +303,35 @@ button.comprar:hover{
     margin-left: 0;
   }
   }
-  @media (max-width: 420px){
-  .header1{
-    padding: 12px;
-  }
-  .header1 img{
-    width: 100px;
-  }
-  .buscador input{
-    width: 140px;
-    height: 26px;
-  }
-  .buscador button{
-    height: 34px;
-    padding: 4px 8px;
-    font-size: 14px;
-  }
-  .sesion{
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-  .sesion a{
-    font-size: 16px;
-    height: 32px;
-    padding: 0 10px;
-  }
-  .navprincipal ul{
-    justify-content: center;
-    text-align: center;
-  }
-  .navprincipal a{
-    font-size: 14px;
-  }
-  .toptext{
-    padding: 10px 15px;
-  }
-  .description{
-    width: 80vw;
+@media (max-width: 420px){
+  .productoindex img,
+  .toptext img{
+    max-width: 100%;
+    height: auto;
   }
   .productoindex{
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .descripcion{
+    width: 100%;
+    box-sizing: border-box;
     flex-direction: column;
   }
-  .preview img{
-    height: 100px;
+  .precio{
+    width: 100%;
+    box-sizing: border-box;
   }
-  .carta{
-    width: 90%;
-    padding: 20px;
-    margin: 40px auto;
+  .comentarios{
+    padding: 0;
   }
-  .footerizq img{
-    width: 180px;
-  }
-  .contacto a{
-    font-size: 12px;
+  .productoindex ul{
+    padding-left: 18px;
   }
   button.comprar{
-    font-size: 16px;
-    padding: 0 12px;
-    height: 32px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 8px;
   }
-  }
+}
