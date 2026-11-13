@@ -1,0 +1,129 @@
+!<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate - Kitchening</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <header>
+        <div class="usuario">
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+        <div class="logo">
+            <img src="imgs/logo.jpg" alt="Logo Kitchening">
+        </div>
+        <nav class="navegacion-principal">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">QUIENES SOMOS</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SUCURSALES</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="pagina-formulario">
+        <h1>REGISTRATE</h1>
+        <section class="contenedor-formulario">
+            <form action="#" method="post">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresá tu nombre" required>
+                    <small>Obligatorio.</small>
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Ingresá tu email" required>
+                    <small>Obligatorio.</small>
+                </div>
+                <div class="campo">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="password" required>
+                    <small>Obligatorio.</small>
+                </div>
+                <div class="campo">
+                    <label for="nacionalidad">País de nacimiento</label>
+                    <select id="nacionalidad" name="nacionalidad">
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="chile">Chile</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="paraguay">Paraguay</option>
+                    </select>
+                    <small>Obligatorio.</small>
+                </div>
+                <fieldset>
+                    <legend>Género</legend>
+                    <label>
+                        <input type="radio" name="genero" value="masculino">
+                        Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="femenino">
+                        Femenino
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="otro">
+                        Prefiero no decirlo
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Hobbies</legend>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="Musica">
+                        Musica
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="Cocina">
+                        Cocina
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="Deportes">
+                        Deportes
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="Arte">
+                        Arte
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="Otro">
+                        Otro
+                    </label>
+                </fieldset>
+                <div class="campo">
+                    <label for="comentarios">Dejanos tus comentarios</label>
+                    <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                </div>
+                <div class="terminos">
+                    <label>
+                        <input type="checkbox" name="terminos" required>
+                        Acepto los términos y condiciones.
+                    </label>
+                </div>
+                <div class="botones-formulario">
+                    <button type="submit">Registrarme</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav class="navegacion-footer">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Quienes</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
