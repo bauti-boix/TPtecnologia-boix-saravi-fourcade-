@@ -49,3 +49,7 @@ fetch("https://dummyjson.com/products/category/groceries")
             `;
         }
     })
+
+    .catch(function(error) {
+        console.log("Error al cargar productos: " + error);
+    });
