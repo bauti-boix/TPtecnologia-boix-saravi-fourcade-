@@ -12,7 +12,7 @@ fetch("https://dummyjson.com/products/category/groceries")
 
             seccion1.innerHTML += `
                 <article class="productoindex">
-                    <a href="product.html?id=${productos[i].id}">
+                    <a href="producto.html?id=${productos[i].id}">
                         <img src="${productos[i].thumbnail}">
                         <h1>${productos[i].title}</h1>
                         <p>${productos[i].description}</p>
@@ -38,7 +38,7 @@ fetch("https://dummyjson.com/products/category/groceries")
 
             seccion2.innerHTML += `
                 <article class="productoindex">
-                    <a href="product.html?id=${productos[i].id}">
+                    <a href="producto.html?id=${productos[i].id}">
                         <img src="${productos[i].thumbnail}">
                         <h1>${productos[i].title}</h1>
                         <p>${productos[i].description}</p>

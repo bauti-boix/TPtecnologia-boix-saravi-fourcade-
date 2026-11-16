@@ -15,11 +15,21 @@ let id = busqueda.get("id");
 if (!id) {
     estado.textContent = "No se indicó un producto.";
 } else {
-    fetch(`https://fakestoreapi.com/products/${id}`)
+    fetch(`https://dummyjson.com/products/${id}`)
         .then(function(response) {
             return response.json();
         })
         .then(function(data) {
-
+            let producto = data;
+            nombre.textContent = producto.title;
+            marca.textContent = producto.brand;
+            descripcion.textContent = producto.description;
+            precio.textContent = `$${producto.price}`;
+            foto.src = producto.thumbnail;
+            categoria.textContent = producto.category;
+            stock.textContent = producto.stock;
+            tags.textContent = producto.category;
+            comentarios.textContent = `Rating: ${producto.rating.rate} / 5`;
+            
         });
 }
