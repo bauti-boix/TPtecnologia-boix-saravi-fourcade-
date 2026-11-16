@@ -1,6 +1,3 @@
-let busqueda = new URLSearchParams(window.location.search);
-let id = busqueda.get("id");
-
 let nombre = document.querySelector("#producto-nombre");
 let marca = document.querySelector("#producto-marca");
 let descripcion = document.querySelector("#producto-descripcion");
@@ -12,9 +9,17 @@ let tags = document.querySelector("#producto-tags");
 let comentarios = document.querySelector("#producto-comentarios");
 let estado = document.querySelector("#producto-estado");
 
+let busqueda = new URLSearchParams(window.location.search);
+let id = busqueda.get("id");
 
 if (!id) {
     estado.textContent = "No se indicó un producto.";
 } else {
-    
+    fetch(`https://fakestoreapi.com/products/${id}`)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+
+        });
 }
