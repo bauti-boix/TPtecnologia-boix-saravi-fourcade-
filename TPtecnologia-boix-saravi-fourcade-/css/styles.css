@@ -282,6 +282,7 @@ button.comprar:hover{
   .navprincipal{
     width: 100%;
     opacity: 0.9;
+    align-self: flex-start;
   }
     .navprincipal ul{
     display: flex;
