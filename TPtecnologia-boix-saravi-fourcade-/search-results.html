@@ -12,8 +12,8 @@
 <body>
  <header class="header1">
              <div class="buscador">
-             <form action="./search-results.html">
-                <input type="text" style="color: #f1e4c9;" id="search-results" name="busqueda" placeholder="¿Que estas buscando?" required>
+             <form action="./search-results.html" method="get">
+                <input type="text" style="color: #f1e4c9;" id="search-results" name="busqueda" placeholder="¿Que estas buscando?">
                 <button type="submit">BUSCAR</button>
              </form>
              </div>
@@ -59,36 +59,8 @@
         </section>
          <section class="toptext">
             <article>
-                <h2>Search Results:"Perfumes arabes"</h2>
-            <section class="preview">
-            <article class="productoindex">
-                <a href="./product.html">
-                    <img src="./img/maison-alhambra.webp">
-                    <h1>MAISON ALHAMBRA</h1>
-                    <p>Eau de perfam, Vanilla smoked oud wood. Contiene 100ml.</p>
-                <h4>$99.999</h4>
-                    <h2>$67.999</h2>
-                </a>
-            </article>
-            <article class="productoindex">
-                <a href="./product.html">
-                    <img src="./img/odesset-aqua.webp">
-                    <h1>ODESSEY AQUA</h1>
-                    <p>Eau de parfum, Citrico, bien veraniego. Contiene 100ml.</p>
-                <h4>$89.999</h4>
-                    <h2>$59.999</h2>
-                </a>
-            </article>
-            <article class="productoindex">
-                <a href="./product.html">
-                    <img src="./img/khamrah-dukhan.webp">
-                    <h1>KHAMRAH DUKHAN</h1>
-                    <p>Elixir, conocido como el mejor perfume árabe. Contiene 100ml</p>
-                <h4>$109.999</h4>
-                    <h2>$79.999</h2>
-                </a>
-            </article>
-            </section>
+               <h2 id="titulo-busqueda"></h2>
+         <section class="preview" id="resultados"></section>
         </section>
     </main>
 <footer class="footer1">
@@ -104,6 +76,7 @@
         </div>
     </footer>
     <script src="js/search-results.js"></script>
+    <script src="js/busqueda.js"></script>
     <script src="js/saludo.js"></script>
     <script src="js/logout.js"></script>
 </body>

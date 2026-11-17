@@ -1,18 +1,17 @@
-function loginExitoso() {
+let login = document.querySelector('.texto');
+login.addEventListener('submit', function(e){
     let email = document.querySelector('#mail').value;
     let password = document.querySelector('#password').value;
     if (email === '') {
         alert('El email es obligatorio. Por favor, revise.');
-        return false;
-    }
-    if (password === '') {
+        e.preventDefault();
+    } else if (password === '') {
         alert('La contraseña es obligatoria. Por favor, revise.');
-        return false;
-    }
-    if (password.length < 6) {
+        e.preventDefault();
+    } else if (password.length < 6) {
         alert('La contraseña debe tener al menos 6 caracteres.');
-        return false;
+        e.preventDefault();
+    } else {
+        localStorage.setItem('userEmail', email)
     }
-    localStorage.setItem('userEmail', email);
-    return true;
-}
+});

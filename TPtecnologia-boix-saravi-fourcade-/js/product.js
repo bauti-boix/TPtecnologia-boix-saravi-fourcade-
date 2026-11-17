@@ -31,5 +31,8 @@ if (!id) {
             tags.textContent = producto.category;
             comentarios.textContent = `Rating: ${producto.rating.rate} / 5`;
             
-        });
-}
+        })
+        .catch(function(error) {
+        console.log("Error al cargar productos: " + error);
+    });
+};
