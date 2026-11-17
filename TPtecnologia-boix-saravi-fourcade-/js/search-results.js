@@ -33,3 +33,6 @@ fetch(`https://dummyjson.com/products/search?q=${termino}`)
             }
         }
     })
+    .catch(function(error) {
+        console.log("Error al buscar productos: " + error);
+    });
