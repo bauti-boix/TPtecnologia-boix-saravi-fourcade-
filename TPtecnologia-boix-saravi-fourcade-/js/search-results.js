@@ -15,4 +15,21 @@ fetch(`https://dummyjson.com/products/search?q=${termino}`)
 
         if (productos.length == 0) {
             resultados.innerText = "No hay resultados para el término: " + termino;
+        } else {
+
+            for (let i = 0; i < productos.length; i++) {
+
+                resultados.innerHTML += `
+                    <article class="productoindex">
+                        <a href="producto.html?id=${productos[i].id}">
+                            <img src="${productos[i].thumbnail}">
+                            <h1>${productos[i].title}</h1>
+                            <p>${productos[i].description}</p>
+                            <h2>$${productos[i].price}</h2>
+                            <span class="botondetalle">VER DETALLE</span>
+                        </a>
+                    </article>
+                `;
+            }
         }
+    })
