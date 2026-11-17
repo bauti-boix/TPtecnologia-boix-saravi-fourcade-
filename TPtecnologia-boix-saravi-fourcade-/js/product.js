@@ -7,6 +7,7 @@ let categoria = document.querySelector("#producto-categoria");
 let stock = document.querySelector("#producto-stock");
 let tags = document.querySelector("#producto-tags");
 let ratingProd = document.querySelector("#producto-rating");
+let comentarios = document.querySelector("#producto-comentarios");
 
 let busqueda = new URLSearchParams(window.location.search);
 let id = busqueda.get("id");
