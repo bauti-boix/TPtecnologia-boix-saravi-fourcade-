@@ -11,3 +11,8 @@ fetch(`https://dummyjson.com/products/search?q=${termino}`)
         return response.json();
     })
     .then(function(data) {
+         let productos = data.products;
+
+        if (productos.length == 0) {
+            resultados.innerText = "No hay resultados para el término: " + termino;
+        }
