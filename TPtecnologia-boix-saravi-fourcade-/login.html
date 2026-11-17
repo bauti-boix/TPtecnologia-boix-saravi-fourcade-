@@ -12,8 +12,8 @@
 <body>
  <header class="header1">
              <div class="buscador">
-             <form action="./search-results.html">
-                <input type="text" style="color: #f1e4c9;" id="search-results" name="busqueda" placeholder="¿Que estas buscando?" required>
+             <form action="./search-results.html" onsubmit="return busquedaExitosa()">
+                <input type="text" style="color: #f1e4c9;" id="search-results" name="busqueda" placeholder="¿Que estas buscando?">
                 <button type="submit">BUSCAR</button>
              </form>
              </div>
@@ -86,6 +86,7 @@
         </div>
     </footer>
     <script src="js/login.js"></script>
+    <script src="js/busqueda.js"></script>
     <script src="js/saludo.js"></script>
     <script src="js/logout.js"></script>
 </body>
