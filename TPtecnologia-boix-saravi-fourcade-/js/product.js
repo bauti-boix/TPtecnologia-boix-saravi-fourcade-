@@ -31,6 +31,16 @@ if (!id) {
             tags.textContent = producto.category;
             ratingProd.textContent = `${producto.rating}`;
             
+    for (let i = 0; i < producto.reviews.length; i++) {
+    comentarios.innerHTML += `
+        <section class="comentariosing">
+            <h3>${producto.reviews[i].reviewerName}</h3>
+            <p>Rating: ${producto.reviews[i].rating} / 5</p>
+            <p>${producto.reviews[i].comment}</p>
+            <p>${new Date(producto.reviews[i].date).toLocaleDateString("es-AR")}</p>
+        </section>
+    `;
+}
         })
         .catch(function(error) {
         console.log("Error al cargar productos: " + error);
