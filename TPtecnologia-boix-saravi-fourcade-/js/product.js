@@ -6,8 +6,7 @@ let foto = document.querySelector("#producto-foto");
 let categoria = document.querySelector("#producto-categoria");
 let stock = document.querySelector("#producto-stock");
 let tags = document.querySelector("#producto-tags");
-let comentarios = document.querySelector("#producto-comentarios");
-let estado = document.querySelector("#producto-estado");
+let ratingProd = document.querySelector("#producto-rating");
 
 let busqueda = new URLSearchParams(window.location.search);
 let id = busqueda.get("id");
@@ -29,7 +28,7 @@ if (!id) {
             categoria.textContent = producto.category;
             stock.textContent = producto.stock;
             tags.textContent = producto.category;
-            comentarios.textContent = `Rating: ${producto.rating.rate} / 5`;
+            ratingProd.textContent = `${producto.rating}`;
             
         })
         .catch(function(error) {

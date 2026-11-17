@@ -154,15 +154,24 @@ main{
   flex-direction: row;
   align-items: center;
 }
-.description{
-display :flex;
+.half{
+  display: block;
+  width: 30vw;
+  text-align: center;
+}
+.half img{
+  width: 80%;
+  height: auto;
+}
+.descripcion{
+  line-height: 20px;
 }
 .precio{
   display: flex;
+  
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 20px;
-  width: 70%;
+
 }
 .productoindex h1 {
   text-align: center;
