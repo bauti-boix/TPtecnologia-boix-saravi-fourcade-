@@ -24,7 +24,7 @@ if (!id) {
             nombre.textContent = producto.title;
             marca.textContent = producto.brand;
             descripcion.textContent = producto.description;
-            precio.textContent = `$${producto.price}`;
+            precio.textContent = `${producto.price}`;
             foto.src = producto.thumbnail;
             categoria.textContent = producto.category;
             stock.textContent = producto.stock;
@@ -37,7 +37,7 @@ if (!id) {
             <h3>${producto.reviews[i].reviewerName}</h3>
             <p>Rating: ${producto.reviews[i].rating} / 5</p>
             <p>${producto.reviews[i].comment}</p>
-            <p>${new Date(producto.reviews[i].date).toLocaleDateString("es-AR")}</p>
+            <p>${producto.reviews[i].date.slice(0, 10)}</p>
         </section>
     `;
 }
