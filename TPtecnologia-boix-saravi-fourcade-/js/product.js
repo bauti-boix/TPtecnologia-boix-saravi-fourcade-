@@ -13,7 +13,7 @@ let busqueda = new URLSearchParams(window.location.search);
 let id = busqueda.get("id");
 
 if (!id) {
-    estado.textContent = "No se indicó un producto.";
+    nombre.textContent = "No se indicó un producto.";
 } else {
     fetch(`https://dummyjson.com/products/${id}`)
         .then(function(response) {
@@ -27,9 +27,9 @@ if (!id) {
             precio.textContent = `${producto.price}`;
             foto.src = producto.thumbnail;
             categoria.textContent = producto.category;
+            categoria.href = `./category.html?cat=${producto.category}`;
             stock.textContent = producto.stock;
             tags.textContent = producto.category;
-            ratingProd.textContent = `${producto.rating}`;
             
     for (let i = 0; i < producto.reviews.length; i++) {
     comentarios.innerHTML += `

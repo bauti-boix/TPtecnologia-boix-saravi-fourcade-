@@ -273,6 +273,9 @@ button.comprar:hover{
   align-items: center;
   width: 75%;
 }
+.saludo{
+  color: #f1e4c9;
+}
 @media (max-width: 1200px){
   .header1{
     height: auto;

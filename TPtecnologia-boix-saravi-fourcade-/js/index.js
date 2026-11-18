@@ -1,6 +1,5 @@
 let seccion1 = document.querySelector("#seccion1");
 let seccion2 = document.querySelector("#seccion2");
-let seccion3 = document.querySelector("#seccion3");
 
 fetch("https://dummyjson.com/products/category/groceries")
     .then(function(response) {
@@ -9,16 +8,16 @@ fetch("https://dummyjson.com/products/category/groceries")
 .then(function(data) {
 
         let productos = data.products;
- for (let i = 0; i < 10; i++) {
+ for (let i = 0; i < 12; i++) {
 
             seccion1.innerHTML += `
                 <article class="productoindex">
-                    <a href="producto.html?id=${productos[i].id}">
+                    <a href="product.html?id=${productos[i].id}">
                         <img src="${productos[i].thumbnail}">
                         <h1>${productos[i].title}</h1>
                         <p>${productos[i].description}</p>
                         <h2>$${productos[i].price}</h2>
-                        <span class="botondetalle">VER DETALLE</span>
+                        <button class="comprar">VER DETALLE</button>
                     </a>
                 </article>
             `;
@@ -35,43 +34,16 @@ fetch("https://dummyjson.com/products/category/groceries")
 
         let productos = data.products;
 
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < 12; i++) {
 
             seccion2.innerHTML += `
                 <article class="productoindex">
-                    <a href="producto.html?id=${productos[i].id}">
+                    <a href="product.html?id=${productos[i].id}">
                         <img src="${productos[i].thumbnail}">
                         <h1>${productos[i].title}</h1>
                         <p>${productos[i].description}</p>
                         <h2>$${productos[i].price}</h2>
-                        <span class="botondetalle">VER DETALLE</span>
-                    </a>
-                </article>
-            `;
-        }
-    })
-
-    .catch(function(error) {
-        console.log("Error al cargar productos: " + error);
-    });
-    fetch("https://dummyjson.com/products/category/fragrances")
-    .then(function(response) {
-        return response.json();
-    })
-    .then(function(data) {
-
-        let productos = data.products;
-
-        for (let i = 0; i < 10; i++) {
-
-            seccion3.innerHTML += `
-                <article class="productoindex">
-                    <a href="producto.html?id=${productos[i].id}">
-                        <img src="${productos[i].thumbnail}">
-                        <h1>${productos[i].title}</h1>
-                        <p>${productos[i].description}</p>
-                        <h2>$${productos[i].price}</h2>
-                        <span class="botondetalle">VER DETALLE</span>
+                        <button class="comprar">VER DETALLE</button>
                     </a>
                 </article>
             `;
