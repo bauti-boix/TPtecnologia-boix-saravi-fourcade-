@@ -35,7 +35,7 @@ if (!id) {
             <h3>${producto.reviews[i].reviewerName}</h3>
             <p>Rating: ${producto.reviews[i].rating} / 5</p>
             <p>${producto.reviews[i].comment}</p>
-            <p>${producto.reviews[i].date}</p>
+            <p>${producto.reviews[i].date.slice(0, 10)}</p>
             </section>
          `;
         }
