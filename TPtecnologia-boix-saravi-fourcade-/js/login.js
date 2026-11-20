@@ -17,6 +17,7 @@ login.addEventListener('submit', function(e){
         errorLogin.style.color = 'red';
         errorLogin.innerHTML = 'La contraseña debe tener al menos 6 caracteres.';
     } else {
-        localStorage.setItem('userEmail', email)
+        this.submit();
+        localStorage.setItem('userEmail', email);
     }
 });

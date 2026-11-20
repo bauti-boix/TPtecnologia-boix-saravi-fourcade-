@@ -20,5 +20,7 @@ register.addEventListener('submit', function(e){
     } else if (password !== repetirPassword) {
         errorRegister.style.color = 'red';
         errorRegister.innerHTML = 'Las contraseñas no coinciden. Por favor, revise.';
+    } else {
+        this.submit();
     }
 });

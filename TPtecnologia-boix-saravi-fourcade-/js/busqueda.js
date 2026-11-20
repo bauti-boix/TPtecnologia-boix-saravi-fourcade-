@@ -18,5 +18,7 @@ busqueda.addEventListener('submit', function(e){
         searchError.style.padding = '5px';
         searchError.style.borderRadius = '5px';
         searchError.innerHTML = 'El termino buscado debe tener al menos 3 caracteres.';
-        } 
+        } else {
+            this.submit();
+        }
 });
